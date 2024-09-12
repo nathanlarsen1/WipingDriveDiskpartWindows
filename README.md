@@ -1,11 +1,14 @@
-<h1>Algorithm for File Updates in Python</h1>
+<h1>Wiping Drive using Diskpart with Command Prompt in Windows</h1>
 
 
 <h2>Project description</h2>
-$${\color{red}For this project, I acted as a Cybersecurity Analyst on a security team for an organization. One of my job roles involved maintaining an allow list of IP addresses that controlled access to resticted content. The "allow_list.txt" file identifies the IP addresses. A separate remove list contains IP addresses that no longer have access to this content. I created an algorithm that automates updating of the "allow_list.txt" file. It removes any of the IP addresses that it should not contain. <br/><br/>}$$
+For this project, I acted as a Cybersecurity Analyst on a security team for an organization. One of my job roles involved wiping a USB drive. I chose to use the diskpart command in Windows.<br/><br/>
 
-<h2>Open the File That Contains the Allow List</h2>
-For the algorithm, I started off by assigning the "allow_list.txt" file name as a string to the import_file variable.</br></br>
+$\color{red}{Warning:\ This\ is\ for\ education\ purposes\ only.\ Use\ this\ knowledge\ wisely.\ You\ can\ easily}$
+$\color{red}{wipe\ drives\ with\ valuable\ information\ with\ this\ information.\ Use\ this\ at\ your\ own\ risk.}$
+
+<h2>Command Prompt</h2>
+Open a Command Prompt as an administrator.</br></br>
                                                 
 <p align="center">
 <img src="https://i.imgur.com/QnMexuQ.png" height="40%" width="40%" alt="Open the file that contains the allow list"/>
@@ -13,19 +16,9 @@ For the algorithm, I started off by assigning the "allow_list.txt" file name as 
 <br />
 </p>
 
-Then, I used a with statement to open the file.</br></br>
+<h2>Diskpart</h2>
 
-<p align="center">
-<img src="https://i.imgur.com/IZ1S2vE.png" height="60%" width="60%" alt="Open the file that contains the allow list"/>
-<br />
-<br />
-</p>
-
-In the algorithm I created, the with statement is used with the .open() function in read mode to open the allow list file to read it. The reason for opening the file is to access the IP addresses stored in the file. The .open() function was used with the argument "r" which means the file is opened in read-only mode.</br></br>
-
-<h2>Read the File Contents</h2>
-
-I used the .read() method to convert the file contents into a string for the variable ip_addresses.</br></br> 
+In the command prompt, type diskpart and press Enter.</br></br> 
 
 <p align="center">
 <img src="https://i.imgur.com/vGlvRmr.png" height="80%" width="80%" alt="Read the file contents"/>
@@ -33,9 +26,9 @@ I used the .read() method to convert the file contents into a string for the var
 <br />
 </p>
 
-<h2>Convert the String into a List</h2>
+<h2>List Disk</h2>
 
-The .split() method was used to convert the ip_addresses string into a list. This was done in order to separate the the individual IP addresses into a formated list.<br/><br/>
+After disport opens, type list disk and press Enter.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/OF8HuwC.png" height="60%" width="60%" alt="Convert the string into a list"/>
@@ -43,9 +36,9 @@ The .split() method was used to convert the ip_addresses string into a list. Thi
 <br />
 </p>
 
-<h2>Iterate Through the IP Addresses List</h2>
+<h2>List of Disks</h2>
 
-A for loop is used to iterate through the ip_addresses list.<br/><br/>
+The list of disks will be displayed.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/Bix4Ivp.png" height="60%" width="60%" alt="Iterate through the IP addresses list"/>
@@ -53,9 +46,9 @@ A for loop is used to iterate through the ip_addresses list.<br/><br/>
 <br />
 </p>
 
-<h2>Remove IP Addresses That Are on the Remove List</h2>
+<h2>Disk Number</h2>
 
-A conditional statement was used to check if any of the addresses in the remove_list exist in the ip_addresses list. If an address is found to exist in the ip_addresses list and the remove_list then it is removed from the ip_addresses list.<br/><br/>
+From the diskpart prompt you must select a disk number. For example, if the target disk was DISK 1 then the proper command would be select disk 1 and press Enter.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/hYY5ore.png" height="40%" width="40%" alt="Remove IP addresses that are on the remove list"/>
@@ -63,9 +56,9 @@ A conditional statement was used to check if any of the addresses in the remove_
 <br />
 </p>
 
-<h2>Update the File with the Revised List of IP Addresses</h2>
+<h2>Clean</h2>
 
-The .join() method was used to take the ip_addresses list and turn it into a string prepatory to saving it to the file.<br/><br/>
+Then in the command prompt enter clean and press Enter.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/sLpgJFv.png" height="80%" width="80%" alt="Update the file with the revised list of IP addresses"/>
@@ -73,7 +66,9 @@ The .join() method was used to take the ip_addresses list and turn it into a str
 <br />
 </p>
 
-The .open() function was used in write mode to open the "allow_list.txt" file. The reason for opening the file is to write the correct IP addresses to the file. The .open() function was used with the argument "w" which means the file is opened in write mode.</br></br>
+<h2>Dispart Succeeded</h2>
+
+You will know that the wipe succeeded when you see output reads Diskpart succeeded in cleaning the disk.</br></br>
 
 <p align="center">
 <img src="https://i.imgur.com/VPiPHkO.png" height="60%" width="60%" alt="Update the file with the revised list of IP addresses"/>
@@ -81,10 +76,10 @@ The .open() function was used in write mode to open the "allow_list.txt" file. T
 <br />
 </p>
 
-The .write() function was used to write the changes to the "allow_list.txt" file.</br></br>
+After you are finished you can close the Command Prompt window.</br></br>
 
 <h2>Summary</h2>
 
-In this excerise, I demonstrated the use of Python used by a Cybersecurity Analyst. This example displayed how algorithms in Python can be used to perform several necessary functions to improve accuracy and efficiency of daily tasks.
+In this excerise, I demonstrated the use of diskpart to wipe a drive as a Cybersecurity Analyst. This example displayed how drives can easily be wiped for reuse.
 
 
