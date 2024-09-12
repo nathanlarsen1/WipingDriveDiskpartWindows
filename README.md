@@ -56,7 +56,7 @@ From the diskpart prompt you must select a disk number. For example, if the targ
 <br />
 </p>
 
-<h2>Clean</h2>
+<h2>Clean Command</h2>
 
 Then in the command prompt enter clean and press Enter.<br/><br/>
 
