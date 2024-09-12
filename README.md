@@ -28,7 +28,7 @@ In the command prompt, type diskpart and press Enter.</br></br>
 
 <h2>List Disk</h2>
 
-After disport opens, type list disk and press Enter.<br/><br/>
+After dispart opens, type list disk and press Enter.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/OF8HuwC.png" height="60%" width="60%" alt="Convert the string into a list"/>
