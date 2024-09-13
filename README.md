@@ -56,7 +56,7 @@ After Dispart opened, I typed `list disk` and pressed Enter.<br/><br/>
 
 <h2>List of Disks</h2>
 
-A list displayed of all connected drives.<br/><br/>
+A list displayed of all connected disks.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/mxKdhnd.png" height="80%" width="80%" alt="Iterate through the IP addresses list"/>
