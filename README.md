@@ -37,7 +37,7 @@ After dispart opens, type `list disk` and press Enter.<br/><br/>
 
 <h2>List of Disks</h2>
 
-The list of disks will be displayed.<br/><br/>
+This will display a list of all connected drives.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/mxKdhnd.png" height="80%" width="80%" alt="Iterate through the IP addresses list"/>
@@ -47,7 +47,7 @@ The list of disks will be displayed.<br/><br/>
 
 <h2>Disk Number</h2>
 
-From the diskpart prompt you must select a disk number. For example, if the target disk was DISK 1 then the proper command would be `select disk 1` and press Enter.<br/><br/>
+Carefully review the list and identify the disk you want to wipe. Type select disk <disk number> (replace <disk number> with the actual number) and press Enter.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/TbdSwtf.png" height="80%" width="80%" alt="Remove IP addresses that are on the remove list"/>
@@ -57,7 +57,7 @@ From the diskpart prompt you must select a disk number. For example, if the targ
 
 <h2>Clean Command</h2>
 
-Then in the diskpart prompt enter `clean` and press Enter.<br/><br/>
+Then in the diskpart prompt enter `clean` and press Enter. This will permanently erase all data on the selected disk. It is best practice to double-check the disk number before proceeding, as wiping the wrong disk can have irreversible consequences.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/caTn1Ec.png" height="80%" width="80%" alt="Update the file with the revised list of IP addresses"/>
@@ -67,7 +67,7 @@ Then in the diskpart prompt enter `clean` and press Enter.<br/><br/>
 
 <h2>Dispart Succeeded</h2>
 
-You will know that the wipe succeeded when you see output that reads `Diskpart succeeded in cleaning the disk`.</br></br>
+Once the process is finished, you'll see a message indicating that Diskpart succeeded in cleaning the disk.</br></br>
 
 <p align="center">
 <img src="https://i.imgur.com/SpBLgP4.png" height="80%" width="80%" alt="Update the file with the revised list of IP addresses"/>
@@ -75,7 +75,7 @@ You will know that the wipe succeeded when you see output that reads `Diskpart s
 <br />
 </p>
 
-After you've finished, you can close the Command Prompt window.</br></br>
+After you've finished, type `exit` to leave Diskpart and close the Command Prompt window.</br></br>
 
 <h2>Summary</h2>
 
