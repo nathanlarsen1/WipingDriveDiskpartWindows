@@ -6,6 +6,25 @@ For this project, I acted as a Cybersecurity Analyst on a security team for an o
 
 <b>Warning: This is for educational purposes only.</b> Using this information to wipe drives can permanently erase valuable data. Proceed with extreme caution and at your own risk.<br/><br/>
 
+
+<h2>Search for Command Prompt</h2>
+Type "Command Prompt" in the Windows search bar.</br></br>
+                                                
+<p align="center">
+<img src="https://i.imgur.com/4tfaGs4.png" height="80%" width="80%" alt="Open the file that contains the allow list"/>
+<br />
+<br />
+</p>
+
+<h2>Right-click and Run as Administrator</h2>
+Right-click on the "Command Prompt" result and select "Run as administrator."</br></br>
+                                                
+<p align="center">
+<img src="https://i.imgur.com/7bCi1DW.png" height="30%" width="30%" alt="Open the file that contains the allow list"/>
+<br />
+<br />
+</p>
+
 <h2>Command Prompt</h2>
 Open a Command Prompt as an administrator.</br></br>
                                                 
