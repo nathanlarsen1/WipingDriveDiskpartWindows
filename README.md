@@ -17,7 +17,7 @@ I began by typing "Command Prompt" in the Windows search bar.</br></br>
 </p>
 
 <h2>Right-click and Run as Administrator</h2>
-The I Right-clicked on the "Command Prompt" result and selected "Run as administrator."</br></br>
+Then I right-clicked on the "Command Prompt" result and selected "Run as administrator."</br></br>
                                                 
 <p align="center">
 <img src="https://i.imgur.com/7bCi1DW.png" height="30%" width="30%" alt="Open the file that contains the allow list"/>
