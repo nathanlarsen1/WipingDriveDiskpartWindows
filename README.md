@@ -1,4 +1,4 @@
-<h1>Wiping Drive using Diskpart with Command Prompt in Windows</h1>
+<h1>Wiping a drive using the Diskpart utility in the Windows Command Prompt</h1>
 
 
 <h2>Project description</h2>
