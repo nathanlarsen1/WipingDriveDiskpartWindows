@@ -8,7 +8,7 @@ For this project, I acted as a Cybersecurity Analyst on a security team for an o
 
 
 <h2>Search for Command Prompt</h2>
-Type "Command Prompt" in the Windows search bar.</br></br>
+I began by typing "Command Prompt" in the Windows search bar.</br></br>
                                                 
 <p align="center">
 <img src="https://i.imgur.com/4tfaGs4.png" height="80%" width="80%" alt="Open the file that contains the allow list"/>
@@ -17,7 +17,7 @@ Type "Command Prompt" in the Windows search bar.</br></br>
 </p>
 
 <h2>Right-click and Run as Administrator</h2>
-Right-click on the "Command Prompt" result and select "Run as administrator."</br></br>
+The I Right-clicked on the "Command Prompt" result and selected "Run as administrator."</br></br>
                                                 
 <p align="center">
 <img src="https://i.imgur.com/7bCi1DW.png" height="30%" width="30%" alt="Open the file that contains the allow list"/>
@@ -26,7 +26,7 @@ Right-click on the "Command Prompt" result and select "Run as administrator."</b
 </p>
 
 <h2>Command Prompt</h2>
-Open a Command Prompt as an administrator.</br></br>
+The Command Prompt opened.</br></br>
                                                 
 <p align="center">
 <img src="https://i.imgur.com/gxojtvH.png" height="80%" width="80%" alt="Open the file that contains the allow list"/>
@@ -36,7 +36,7 @@ Open a Command Prompt as an administrator.</br></br>
 
 <h2>Diskpart</h2>
 
-In the command prompt, type `diskpart` and press Enter.</br></br> 
+In the command prompt, I typed `diskpart` and pressed Enter.</br></br> 
 
 <p align="center">
 <img src="https://i.imgur.com/TGhFnGl.png" height="80%" width="80%" alt="Read the file contents"/>
@@ -46,7 +46,7 @@ In the command prompt, type `diskpart` and press Enter.</br></br>
 
 <h2>List Disk</h2>
 
-After dispart opens, type `list disk` and press Enter.<br/><br/>
+After Dispart opened, I typed `list disk` and pressed Enter.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/E8W9BR7.png" height="80%" width="80%" alt="Convert the string into a list"/>
@@ -56,7 +56,7 @@ After dispart opens, type `list disk` and press Enter.<br/><br/>
 
 <h2>List of Disks</h2>
 
-This will display a list of all connected drives.<br/><br/>
+A list displayed of all connected drives.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/mxKdhnd.png" height="80%" width="80%" alt="Iterate through the IP addresses list"/>
@@ -66,7 +66,7 @@ This will display a list of all connected drives.<br/><br/>
 
 <h2>Disk Number</h2>
 
-Carefully review the list and identify the disk you want to wipe. Type select disk <disk number> (replace <disk number> with the actual number) and press Enter.<br/><br/>
+I carefully reviewed the list and identified the disk that I needed to wipe. I typed `select disk 1` and pressed Enter.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/TbdSwtf.png" height="80%" width="80%" alt="Remove IP addresses that are on the remove list"/>
@@ -76,7 +76,7 @@ Carefully review the list and identify the disk you want to wipe. Type select di
 
 <h2>Clean Command</h2>
 
-Then in the diskpart prompt enter `clean` and press Enter. This will permanently erase all data on the selected disk. It is best practice to double-check the disk number before proceeding, as wiping the wrong disk can have irreversible consequences.<br/><br/>
+Then in the diskpart prompt I entered `clean` and pressed Enter. I made sure that I had the correct disk before proceeding knowing that this process will permanently erase all data on the selected disk. This was done by double-checking the disk number before proceeding, as wiping the wrong disk can have irreversible consequences.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/caTn1Ec.png" height="80%" width="80%" alt="Update the file with the revised list of IP addresses"/>
@@ -86,7 +86,7 @@ Then in the diskpart prompt enter `clean` and press Enter. This will permanently
 
 <h2>Dispart Succeeded</h2>
 
-Once the process is finished, you'll see a message indicating that Diskpart succeeded in cleaning the disk.</br></br>
+Once the process was finished, I saw a message indicating that Diskpart succeeded in cleaning the disk.</br></br>
 
 <p align="center">
 <img src="https://i.imgur.com/SpBLgP4.png" height="80%" width="80%" alt="Update the file with the revised list of IP addresses"/>
@@ -94,7 +94,7 @@ Once the process is finished, you'll see a message indicating that Diskpart succ
 <br />
 </p>
 
-After you've finished, type `exit` to leave Diskpart and close the Command Prompt window.</br></br>
+After I was finished, I typed `exit` to leave Diskpart and closed the Command Prompt window.</br></br>
 
 <h2>Summary</h2>
 
