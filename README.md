@@ -6,6 +6,14 @@ For this project, I acted as a Cybersecurity Analyst on a security team for an o
 
 <b>Warning: This is for educational purposes only.</b> Using this information to wipe drives can permanently erase valuable data. Proceed with extreme caution and at your own risk.<br/><br/>
 
+<h2>Language and Applications</h2>
+
+- <b>Command Prompt</b>
+- <b>Diskpart</b></br></br>
+
+<h2>Environments Used </h2>
+
+- <b>Windows 11</b></br></br>
 
 <h2>Search for Command Prompt</h2>
 I began by typing "Command Prompt" in the Windows search bar.</br></br>
