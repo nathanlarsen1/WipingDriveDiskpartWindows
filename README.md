@@ -15,7 +15,10 @@ For this project, I acted as a Cybersecurity Analyst on a security team for an o
 
 - <b>Windows 11</b></br></br>
 
-<h2>Search for Command Prompt</h2>
+<h2>Project Walkthrough</h2>
+
+<h3>1. Search for Command Prompt</h3>
+
 I began by typing "Command Prompt" in the Windows search bar.</br></br>
                                                 
 <p align="center">
@@ -24,7 +27,7 @@ I began by typing "Command Prompt" in the Windows search bar.</br></br>
 <br />
 </p>
 
-<h2>Right-click and Run as Administrator</h2>
+<h3>2. Right-click and Run as Administrator</h3>
 Then I right-clicked on the "Command Prompt" result and selected "Run as administrator."</br></br>
                                                 
 <p align="center">
@@ -33,7 +36,7 @@ Then I right-clicked on the "Command Prompt" result and selected "Run as adminis
 <br />
 </p>
 
-<h2>Command Prompt</h2>
+<h3>3. Command Prompt</h3>
 The Command Prompt opened.</br></br>
                                                 
 <p align="center">
@@ -42,7 +45,7 @@ The Command Prompt opened.</br></br>
 <br />
 </p>
 
-<h2>Diskpart</h2>
+<h3>4. Diskpart</h3>
 
 In the command prompt, I typed `diskpart` and pressed Enter.</br></br> 
 
@@ -52,7 +55,7 @@ In the command prompt, I typed `diskpart` and pressed Enter.</br></br>
 <br />
 </p>
 
-<h2>List Disk</h2>
+<h3>5.List Disk</h3>
 
 After Dispart opened, I typed `list disk` and pressed Enter.<br/><br/>
 
@@ -62,7 +65,7 @@ After Dispart opened, I typed `list disk` and pressed Enter.<br/><br/>
 <br />
 </p>
 
-<h2>List of Disks</h2>
+<h3>6. List of Disks</h3>
 
 A list displayed of all connected disks.<br/><br/>
 
@@ -72,7 +75,7 @@ A list displayed of all connected disks.<br/><br/>
 <br />
 </p>
 
-<h2>Disk Number</h2>
+<h3>7. Disk Number</h3>
 
 I carefully reviewed the list and identified the disk that I needed to wipe. I typed `select disk 1` and pressed Enter.<br/><br/>
 
@@ -82,7 +85,7 @@ I carefully reviewed the list and identified the disk that I needed to wipe. I t
 <br />
 </p>
 
-<h2>Clean Command</h2>
+<h3>8. Clean Command</h3>
 
 Then in the diskpart prompt I entered `clean` and pressed Enter. I made sure that I had the correct disk before proceeding knowing that this process will permanently erase all data on the selected disk. This was done by double-checking the disk number before proceeding, as wiping the wrong disk can have irreversible consequences.<br/><br/>
 
@@ -92,7 +95,7 @@ Then in the diskpart prompt I entered `clean` and pressed Enter. I made sure tha
 <br />
 </p>
 
-<h2>Dispart Succeeded</h2>
+<h3>9. Dispart Succeeded</h3>
 
 Once the process was finished, I saw a message indicating that Diskpart succeeded in cleaning the disk.</br></br>
 
@@ -104,7 +107,7 @@ Once the process was finished, I saw a message indicating that Diskpart succeede
 
 After I was finished, I typed `exit` to leave Diskpart and closed the Command Prompt window.</br></br>
 
-<h2>Summary</h2>
+<h3>Summary</h3>
 
 In this excerise, I demonstrated the use of diskpart to wipe a drive as a Cybersecurity Analyst. This example displayed how drives can easily be wiped for reuse.
 
